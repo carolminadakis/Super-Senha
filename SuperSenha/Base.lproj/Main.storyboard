@@ -153,8 +153,8 @@
                         <outlet property="swLetters" destination="j0d-lZ-sUI" id="2D2-SL-TIn"/>
                         <outlet property="swNumbers" destination="3jX-wR-mvL" id="dw4-ih-CdM"/>
                         <outlet property="swSpecialCharacters" destination="JYV-1g-hVI" id="NAB-zd-arc"/>
-                        <outlet property="tfNumberOfCharacters" destination="h6J-pE-p8U" id="0c8-Tc-OFt"/>
-                        <outlet property="tfTotalPassword" destination="3Hb-WD-bTM" id="nmm-iG-2lT"/>
+                        <outlet property="tfNumberOfCharacters" destination="90F-IV-XfD" id="ilY-eR-RDg"/>
+                        <outlet property="tfTotalPassword" destination="wJb-yS-MDn" id="nnX-qe-lNN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -466,7 +466,7 @@ Há diversos programas disponíveis que armazenam os dados de maneira segura e a
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="ItB-Pi-HRM">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="tintColor" red="0.66666666669999997" green="0.2274509804" blue="0.47058823529999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
