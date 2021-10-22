@@ -13,10 +13,13 @@
 		4D66E2AE271DB7660086A1A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D66E2AC271DB7660086A1A0 /* Main.storyboard */; };
 		4D66E2B0271DB7670086A1A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D66E2AF271DB7670086A1A0 /* Assets.xcassets */; };
 		4D66E2B3271DB7670086A1A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D66E2B1271DB7670086A1A0 /* LaunchScreen.storyboard */; };
+		4DF0C7262721A360003CE6A4 /* PasswordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF0C7252721A360003CE6A4 /* PasswordsViewController.swift */; };
+		4DF0C7282721A51B003CE6A4 /* SecurityTipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF0C7272721A51B003CE6A4 /* SecurityTipsViewController.swift */; };
+		4DF0C72A2721A65E003CE6A4 /* PasswordGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF0C7292721A65E003CE6A4 /* PasswordGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4D66E2A3271DB7660086A1A0 /* Caculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Caculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D66E2A3271DB7660086A1A0 /* SuperSenha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperSenha.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D66E2A6271DB7660086A1A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D66E2A8271DB7660086A1A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4D66E2AA271DB7660086A1A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +27,9 @@
 		4D66E2AF271DB7670086A1A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D66E2B2271DB7670086A1A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D66E2B4271DB7670086A1A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DF0C7252721A360003CE6A4 /* PasswordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordsViewController.swift; sourceTree = "<group>"; };
+		4DF0C7272721A51B003CE6A4 /* SecurityTipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityTipsViewController.swift; sourceTree = "<group>"; };
+		4DF0C7292721A65E003CE6A4 /* PasswordGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +46,7 @@
 		4D66E29A271DB7660086A1A0 = {
 			isa = PBXGroup;
 			children = (
-				4D66E2A5271DB7660086A1A0 /* Caculator */,
+				4D66E2A5271DB7660086A1A0 /* SuperSenha */,
 				4D66E2A4271DB7660086A1A0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,31 +54,34 @@
 		4D66E2A4271DB7660086A1A0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4D66E2A3271DB7660086A1A0 /* Caculator.app */,
+				4D66E2A3271DB7660086A1A0 /* SuperSenha.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4D66E2A5271DB7660086A1A0 /* Caculator */ = {
+		4D66E2A5271DB7660086A1A0 /* SuperSenha */ = {
 			isa = PBXGroup;
 			children = (
 				4D66E2A6271DB7660086A1A0 /* AppDelegate.swift */,
 				4D66E2A8271DB7660086A1A0 /* SceneDelegate.swift */,
 				4D66E2AA271DB7660086A1A0 /* ViewController.swift */,
 				4D66E2AC271DB7660086A1A0 /* Main.storyboard */,
+				4DF0C7292721A65E003CE6A4 /* PasswordGenerator.swift */,
+				4DF0C7272721A51B003CE6A4 /* SecurityTipsViewController.swift */,
+				4DF0C7252721A360003CE6A4 /* PasswordsViewController.swift */,
 				4D66E2AF271DB7670086A1A0 /* Assets.xcassets */,
 				4D66E2B1271DB7670086A1A0 /* LaunchScreen.storyboard */,
 				4D66E2B4271DB7670086A1A0 /* Info.plist */,
 			);
-			path = Caculator;
+			path = SuperSenha;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4D66E2A2271DB7660086A1A0 /* Caculator */ = {
+		4D66E2A2271DB7660086A1A0 /* SuperSenha */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4D66E2B7271DB7670086A1A0 /* Build configuration list for PBXNativeTarget "Caculator" */;
+			buildConfigurationList = 4D66E2B7271DB7670086A1A0 /* Build configuration list for PBXNativeTarget "SuperSenha" */;
 			buildPhases = (
 				4D66E29F271DB7660086A1A0 /* Sources */,
 				4D66E2A0271DB7660086A1A0 /* Frameworks */,
@@ -82,9 +91,9 @@
 			);
 			dependencies = (
 			);
-			name = Caculator;
+			name = SuperSenha;
 			productName = Caculator;
-			productReference = 4D66E2A3271DB7660086A1A0 /* Caculator.app */;
+			productReference = 4D66E2A3271DB7660086A1A0 /* SuperSenha.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +110,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4D66E29E271DB7660086A1A0 /* Build configuration list for PBXProject "Caculator" */;
+			buildConfigurationList = 4D66E29E271DB7660086A1A0 /* Build configuration list for PBXProject "SuperSenha" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +123,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4D66E2A2271DB7660086A1A0 /* Caculator */,
+				4D66E2A2271DB7660086A1A0 /* SuperSenha */,
 			);
 		};
 /* End PBXProject section */
@@ -138,8 +147,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D66E2AB271DB7660086A1A0 /* ViewController.swift in Sources */,
+				4DF0C7262721A360003CE6A4 /* PasswordsViewController.swift in Sources */,
+				4DF0C72A2721A65E003CE6A4 /* PasswordGenerator.swift in Sources */,
 				4D66E2A7271DB7660086A1A0 /* AppDelegate.swift in Sources */,
 				4D66E2A9271DB7660086A1A0 /* SceneDelegate.swift in Sources */,
+				4DF0C7282721A51B003CE6A4 /* SecurityTipsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,15 +299,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Caculator/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SuperSenha/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.zup.minadakis.Caculator;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.zup.minadakis.SuperSenha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -305,22 +317,22 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Caculator/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SuperSenha/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.zup.minadakis.Caculator;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.zup.minadakis.SuperSenha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4D66E29E271DB7660086A1A0 /* Build configuration list for PBXProject "Caculator" */ = {
+		4D66E29E271DB7660086A1A0 /* Build configuration list for PBXProject "SuperSenha" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4D66E2B5271DB7670086A1A0 /* Debug */,
@@ -329,7 +341,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4D66E2B7271DB7670086A1A0 /* Build configuration list for PBXNativeTarget "Caculator" */ = {
+		4D66E2B7271DB7670086A1A0 /* Build configuration list for PBXNativeTarget "SuperSenha" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4D66E2B8271DB7670086A1A0 /* Debug */,
